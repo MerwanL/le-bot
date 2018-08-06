@@ -1,0 +1,23 @@
+{
+  "name": "Vich-bot",
+  "version": "1.0.0",
+  "description": "Un bot fait par Vich, Par ce qu'il a que ça a foutre.",
+  "main": "bot.js",
+  "author": "Vich",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "express": "^4.16.2"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
