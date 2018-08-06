@@ -1,6 +1,7 @@
 const Enmap = require("enmap");
 const EnmapLevel = require('enmap-level');
 const Discord = require("discord.js");
+const Conf = require("config.json");
 const client = new Discord.Client();
 
 const tableSource = new EnmapLevel({name: "Faith"});
@@ -74,4 +75,4 @@ client.on('message', message => {
     }
 });
 
-client.login("NDIxNjkzNTUxOTYxOTY0NTY2.DYQ-dA.-QByuNYci0Qtcbudo1wHjKnxnk4");
+client.login(Conf.ApiKey);
